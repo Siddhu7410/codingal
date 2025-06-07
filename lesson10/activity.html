@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elements</title>
+    <style>
+        input[type=text]{
+           border: 6px solid brown;
+        }
+        .class1>p{
+            color: aqua;
+
+        }
+
+        h3+h2{
+            color: aquamarine;
+        }
+        .class2:hover{
+            color: blueviolet;
+        }
+        li:nth-child[2]{
+            color:aqua;
+        }
+      .k::before{
+        content:😭 ;
+      }
+      .i::after{
+        content:😭 ;
+      }
+
+    </style>
+</head>
+<body>
+ <input type="text">
+ <input type="number">
+ <div class="class1">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+ </div>
+ <h2 class="k">Lorem, ipsum dolor.</h2>
+ <h3 class="i">Lorem ipsum dolor sit.</h3>
+ <p class="class2">Lorem ipsum dolor sit.</p>
+ <ul>
+    <li>beautiful-golden-autumn-scenery-trees-golden-leaves-sunshine-scotland-united-kingdom-beautiful-golden-autumn-124278811</li>
+    <li>god</li>
+    <li>limegod</li>
+    <li>ljvhsdrgbd</li>
+ </ul>
+    
+</body>
+</html>
