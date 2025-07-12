@@ -21,7 +21,8 @@ function sum(a ,b ,c){
 }
 
 
-console.log("referencing the local variable of the function", result)
+console.log("referencing the local variable of the function", result)    
+// purpose is to craete error
 
 sum(4,5,9)
 sum(1000,9099,55555558)
