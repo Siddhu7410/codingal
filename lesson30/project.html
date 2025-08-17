@@ -1,27 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <H1>The great indian sale</H1>
-    <form name='my form'onsubmit='validateform()'>
-        <label for="Fullname">Fullname</label>
-        <input name="Fullname" type="text" id="Fullname" required>
+<form name="myform" onsubmit="return validateform()">
+    <label for="Fullname">Full Name:</label>
+    <input name="Fullname" type="text" />
 
-        <label for="Phonenumber">Phone number</label>
-        <input name="Phone number" type="text" id="Phone number" required>
+    <label for="Phone number">Phone number:</label>
+    <input name="Phone number" type="text" />
 
-        <label for="Age">Age</label>
-        <input name="Address" type="text" id="Address" required>
+    <label for="Age">Age:</label>
+    <input name="Age" type="number" />
 
-        <input type="submit">
+    <input type="submit" value="Submit" />
+</form>
 
-        <script>src=script.js</script>
-
-
-    </form>
-</body>
-</html>
+<script src="script.js"></script>
