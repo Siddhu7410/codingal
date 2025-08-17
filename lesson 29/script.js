@@ -1,5 +1,5 @@
 //json
-var a={name:'Siddhesh',age:15,iq:'extremely high'}
+var a={name:'Siddhesh',age:15,iq:'extremely high '}
 console.log(a)
 var b=JSON.stringify(a)
 console.log(b)
