@@ -1,0 +1,46 @@
+.calculator{
+
+margin: 220px auto 0px auto;
+
+background-color: white;
+
+width: 440px;
+
+padding: 10px;
+
+border-radius: 4px;
+
+}
+
+.display{
+
+background-color: rgba(160, 160, 160, 0.849);
+
+height: 80px;
+
+border-radius: 4px;
+
+text-align: right;
+
+padding: 20px;
+
+font-size: 30px;
+
+font-weight: bold;
+
+margin-bottom: 20px;
+
+}
+.keyboard{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+
+}
+
+.operator , .number{
+
+width: 90px
+
+}
