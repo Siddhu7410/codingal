@@ -1,13 +1,13 @@
 const numberbuttons=document.querySelectorAll('.number')
 const operatorbuttons=document.querySelectorAll('.operators')
-const display = document.querySelectorAll('.display')
+const display = document.querySelector('.display')
 
-let currentinput=''
-let previousinput=''
+let currentInput=''
+let previouInput=''
 let operator=null
 
 function updateDisplay(v){
-    display.innertext=v
+    display.innerText=v
 }
 
 numberbuttons.forEach(b => {
