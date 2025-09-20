@@ -15,3 +15,6 @@ print(100/4)
 print(101%10)
 x=input("enetr the message you want to send to your friend")
 print(f'your input is {x}')
+
+for i in range(0,100):
+    print("physics")
