@@ -8,9 +8,10 @@ turtle.title("Welcome to the world of turtle mamey" )
 
 t=turtle.Turtle()
 
-for i in range(333):
-    t.forward(100)
+for i in range(190):
+    t.forward(179)
     t.right(120)
+  
     
 
-    turtle.done()
+turtle.done()
