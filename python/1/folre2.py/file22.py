@@ -2,7 +2,7 @@ import turtle
 sc=turtle.Screen()
 
 sc.bgcolor("yellow")
-sc.setup(400,600)
+sc.setup(500,600)
 
 turtle.title("Welcome to the world of turtle mamey" )
 
